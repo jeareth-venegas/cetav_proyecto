@@ -1,0 +1,14 @@
+name: project
+type: theme
+description: 'project theme'
+core_version_requirement: ^8 || ^9
+core: 8.x
+libraries: 
+  - project/project_css
+  - project/project/project_js
+
+regions:
+  header: Header
+  content: Content
+  sidebar_r: 'Sidebar Right'
+  footer: Footer
