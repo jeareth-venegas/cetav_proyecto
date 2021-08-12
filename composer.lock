@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "008d8f9dab2558f92448008d4328f70a",
+    "content-hash": "1267e055a5e7f48ca3d12cdc0e527f95",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3197,6 +3197,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/slick",
                 "issues": "https://drupal.org/project/issues/slick"
+            }
+        },
+        {
+            "name": "drupal/slick_views",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick_views.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick_views-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "297bbf60834f3f3331a45177c5e4aff52942195a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/slick": "~2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1618668307",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                }
+            ],
+            "description": "Provides Slick carousel integration with Views. Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick_views",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow",
+                "views"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/slick_views",
+                "issues": "https://drupal.org/project/issues/slick_views"
             }
         },
         {
